@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "title": "Rencanaku",
+      "datetime": "September 17, 2021 5:58:11 PM",
+      "body": "Ku kan berdoa dan berusaha sehingga suatu saat saya dapat menjadi pria yang sukses. dan saya akan menyelesaikan cita cita saya menikahi andini"
+    },
+    {
+      "id": 4,
+      "title": "Menikah",
+      "datetime": "September 15, 2021 11:39:24 PM",
+      "body": "saya akan menikahi andini afrianti"
+    },
+    {
+      "id": 5,
+      "title": "My love",
+      "datetime": "September 15, 2021 11:38:53 PM",
+      "body": "I love you dini"
+    }
+  ]
+}
