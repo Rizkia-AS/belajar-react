@@ -9,13 +9,16 @@ import About from "./components/About";
 import Missing from "./components/Missing";
 
 
-
+import useAxiosFetch from "./hooks/useAxiosFetch"
 import {Route, Switch } from "react-router-dom"
-import { DataProvider } from "./contexts/DataContext";
+import {DataProvider} from "./contexts/DataContext";
 
 
 
 function App() {
+  const {data, fetchError, isLoading} = useAxiosFetch(`http://localhost:3500/posts`);
+
+
   return (
     <div className="App">
       <Header title="React JS Blog"/>
@@ -32,7 +35,7 @@ function App() {
             <Route path="/about" component={About}/>
             <Route path="*" component={Missing} />
           </Switch>
-      </DataProvider>
+          </DataProvider>
       <Footer />
       
     </div>
